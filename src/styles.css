@@ -1,0 +1,46 @@
+html,
+body {
+  font-family: 'system-ui';
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 8px;
+}
+
+.bar {
+  height: 200px;
+  margin: 0;
+}
+
+.column {
+  height: 200px;
+  margin: 0;
+}
+
+.area {
+  height: 200px;
+  margin: 0;
+}
+
+.data {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+th {
+  font-size: 0.8rem;
+}
+
+hr {
+  margin-block-start: 3rem;
+  margin-block-end: 3rem;
+  border-top: 1px solid #ccc;
+}
